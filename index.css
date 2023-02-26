@@ -1,0 +1,133 @@
+
+    html {
+        font-size: 62.5%;
+    }
+    
+    body {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.6rem;
+        background-color: #000000;
+        color: #fff;
+        margin: 0;
+    }
+    
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+    
+    .section {
+        padding: 4rem 0;
+    }
+    
+    .section-title {
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .section-title::after {
+        content: '';
+        display: block;
+        width: 5rem;
+        height: 0.25rem;
+        background-color: #fff;
+        margin: 1rem auto;
+    }
+    
+    .section-center {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+        gap: 2rem;
+    }
+    
+    .menu-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        background-color: #000;
+        border-radius: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .menu-item img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+    }
+    
+    .menu-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 1rem;
+    }
+    
+    .menu-info > h3 {
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
+    }
+    
+    .menu-info > h3 > span {
+        color: #f26a2e;
+    }
+    
+    .menu-info > p {
+        margin-bottom: 0;
+    }
+    
+    .menu-price {
+        color: #f26a2e;
+        font-size: 2rem;
+    }
+    
+    .menu-price > span {
+        font-size: 1.5rem;
+    }
+    
+    .menu-btn {
+        background-color: #f26a2e;
+        color: #fff;
+    }
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    margin: 0rem;
+    overflow: hidden;
+  }
+  
+  #image-track {
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(0%, -50%); 
+    user-select: none; /* -- Prevent image highlighting -- */
+  }
+  
+  #image-track > .image {
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: 100% center;
+  }
+  .container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #3eb452;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+
